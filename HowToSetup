@@ -1,6 +1,6 @@
 
 ১. XAMPP open -> Apache ও MySQL start
 ২. MySQL (phpMyAdmin) -> create smart_hospital_system database and run SQL file code
-৩. My Pc -> Drive C:\xampp\htdocs\new folder create\ ফোল্ডারে এই ৯টি ফাইল সেভ করুন।
+৩. Go My Pc -> Drive C:\xampp\htdocs\new folder create\ and save 9 files.
 ৪. In any browser just Search -> localhost/new folder name/index.php (put New folder name that you create in c drive ) 
 ৫. User: admin, Passsword: 1234 and login. 
