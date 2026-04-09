@@ -1,6 +1,6 @@
 
 ১. XAMPP চালু করে Apache ও MySQL স্টার্ট করুন।
 ২. MySQL (phpMyAdmin) এ গিয়ে smart_hospital_system ডেটাবেস তৈরি করে SQL কোডগুলো রান করুন।
-৩. C:\xampp\htdocs\hospital\ ফোল্ডারে এই ৯টি ফাইল সেভ করুন।
-৪. ব্রাউজারে localhost/hospital/index.php লিখে এন্টার দিন।
+৩. C:\xampp\htdocs\new folder create\ ফোল্ডারে এই ৯টি ফাইল সেভ করুন।
+৪. ব্রাউজারে localhost/new folder name/index.php লিখে এন্টার দিন।
 ৫. ইউজার: admin, পাসওয়ার্ড: 1234 দিয়ে লগইন করুন।
