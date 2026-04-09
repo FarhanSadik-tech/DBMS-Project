@@ -1,3 +1,4 @@
+
 ১. XAMPP চালু করে Apache ও MySQL স্টার্ট করুন।
 ২. MySQL (phpMyAdmin) এ গিয়ে smart_hospital_system ডেটাবেস তৈরি করে SQL কোডগুলো রান করুন।
 ৩. C:\xampp\htdocs\hospital\ ফোল্ডারে এই ৯টি ফাইল সেভ করুন।
