@@ -11,6 +11,9 @@ CREATE TABLE IF NOT EXISTS Doctors (doctor_id INT PRIMARY KEY AUTO_INCREMENT, na
 -- Paitent Table (With Column)
 CREATE TABLE IF NOT EXISTS Patients (patient_id INT PRIMARY KEY AUTO_INCREMENT, name VARCHAR(100), phone VARCHAR(20), assigned_doctor_id INT DEFAULT NULL);
 
+-- Gender Table 
+ALTER TABLE Patients ADD COLUMN gender VARCHAR(10) DEFAULT 'Not Specified' AFTER phone;
+
 -- Bed table
 CREATE TABLE IF NOT EXISTS Beds (bed_id INT PRIMARY KEY AUTO_INCREMENT, bed_number VARCHAR(10), bed_type VARCHAR(50), status ENUM('Available', 'Occupied') DEFAULT 'Available');
 INSERT INTO Beds (bed_number, bed_type, status) VALUES ('101', 'General', 'Available'), ('102', 'ICU', 'Available'), ('103', 'Cabin', 'Available');
